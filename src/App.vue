@@ -4,7 +4,7 @@ import {ElMessage} from "element-plus"
 import ScrollImage from "./components/ScrollImage.vue";
 const images = new Array(10).fill(0).map((_,index)=>{
   index = index+1;
-  return `images/dog${index<10 ? '0'+index :index}.jpeg`
+  return `./images/dog${index<10 ? '0'+index :index}.jpeg`
 });
 const checked=ref('')
 

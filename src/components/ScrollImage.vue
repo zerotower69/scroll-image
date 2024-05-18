@@ -109,8 +109,11 @@ function handleNext(){
 }
 
 function handleChecked(image:string){
+  const origin = active.value
   active.value=image
-  emits('change',image)
+  if(image !== origin){
+    emits('change',image)
+  }
 }
 </script>
 
@@ -147,7 +150,12 @@ function handleChecked(image:string){
     height: calc(100% - 2px);
   }
   &.is-checked{
-    border-color: #1196ff;
+    border-color: rgb(74 222 128);
+  }
+  &:not(.is-checked){
+    &:hover{
+      border-color: #1196ff;
+    }
   }
 }
 
