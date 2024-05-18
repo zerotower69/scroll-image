@@ -1,0 +1,32 @@
+{
+  "name": "scroll-image",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "classnames": "^2.5.1",
+    "element-plus": "^2.7.3",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@iconify/utils": "^2.1.23",
+    "@types/node": "^20.12.12",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/jsdom": "^21.1.6",
+    "@vue/tsconfig": "^0.5.1",
+    "sass": "^1.77.1",
+    "typescript": "^5.2.2",
+    "unocss": "^0.60.2",
+    "vite": "^5.2.0",
+    "vite-plugin-html": "^3.2.2",
+    "vue-tsc": "^2.0.6"
+  }
+}
